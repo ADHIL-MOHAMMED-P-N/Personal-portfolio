@@ -142,5 +142,9 @@ body{
     background-color: #f3f3f3;
     box-shadow: 2px 4px 7px 0px #c9d8d1;
 }
+/*curser*/
+.typing > .txt {
+    border-right: 0.2rem solid black;
+}
 
 /* background end */
