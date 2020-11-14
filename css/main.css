@@ -1,15 +1,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Lora&family=Ubuntu&display=swap');
+
+/* gloval variables start */
+
 :root{
     --heading__font :'Ubuntu', sans-serif;
     --body__font : 'Lora', serif;
     --fancy__font : 'Handlee', cursive;
-    --body__color : #cfd3ce;
-    --color__2 : #34626c;
-    --secondary__color: #c6b497;
-    --tirtiary__color : #839b97;
+  --primary__color : #9ad3bc;
+  --secondary__color : #f3eac2;
+  --third__color:#f5b461;
+  --color__4 : #ec524b;
+    
 }
 
+/* global variables end */
 * {
     padding: 0;
     margin: 0;
@@ -17,6 +22,56 @@
 }
 
 body{
-    background-color: var(--body__color);
+       background-color: #ffffff;
 }
 
+
+
+#header .menu .navbar {
+  
+    padding: 0.7rem 0rem;
+    background-color: #ffffff;
+    font-family: var(--heading__font);
+ 
+}
+
+#header .menu .navbar .nav-link {
+    color: #404040;
+    font-size: 1.3rem;
+    padding: 0.5rem 1.5rem;
+    font-weight: 400;
+    position: relative;
+}
+
+#header .menu .navbar .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--color__4);
+    transform: scaleX(0.0);
+    transform-origin: left;
+    transition: transform 300ms ease-in;
+}
+#header .menu .navbar .nav-link:hover::after{
+    transform: scale(1);
+}
+
+#header .menu .navbar .navbar-nav .active a{
+    color: var(--color__4);
+}
+/* navbar end */
+
+/* background start */
+#background .container .row .titles h2 {
+    font-size: 3rem;
+}
+#background .container .row .titles h1 {
+    font-size: 5rem;
+}
+#background .container .row .titles h3 {
+    font-size: 2.5rem;
+}
+/* background end */
