@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Lora&family=Ubuntu&display=swap');
+:root{
+    --heading__font :'Ubuntu', sans-serif;
+    --body__font : 'Lora', serif;
+    --fancy__font : 'Handlee', cursive;
+    --body__color : #cfd3ce;
+    --color__2 : #34626c;
+    --secondary__color: #c6b497;
+    --tirtiary__color : #839b97;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--body__color);
+}
+
