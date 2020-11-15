@@ -63,3 +63,9 @@ function init() {
 
     new TypingEffect(txt, word, wait)
 }
+
+//animate on scroll
+
+// aos init
+
+AOS.init();

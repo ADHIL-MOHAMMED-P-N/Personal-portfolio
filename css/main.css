@@ -67,7 +67,7 @@ body{
 }
 
 #header .menu .navbar .nav-link {
-    color: #404040;
+    color: #2c2c2c;
     font-size: 1.3rem;
     padding: 0.5rem 1.5rem;
     font-weight: 400;
@@ -123,7 +123,7 @@ body{
 
 #background .container .row .image {
     
-    margin-top: 10%;
+    margin-top: 15%;
    display: flex;
      justify-content: center;
 }
@@ -175,6 +175,49 @@ body{
 
 /* media query start  */
 
+ 
+
+/*  tablet start */
+
+  @media screen and (max-width: 768px){
+
+ #background .container .row .image img {
+      width: 220px;
+    
+}
+
+#background .container .row .titles h2 {
+    font-size: 2rem;
+    
+}
+#background .container .row .titles h1 {
+    font-size: 4rem;
+}
+#background .container .row .titles h3 {
+    
+    font-size: 1.5rem;
+    
+}
+#background .container .row .icons {
+    width: 100%;
+}
+#background .container .row .icons a {
+        padding: 8px 8px;
+}
+
+
+.button-1 {
+    padding: 5px 10px;
+
+}
+
+ }
+
+
+
+ /*  tablet end */
+
+
  /* mobile */
 
  @media screen and (max-width: 400px){
@@ -188,7 +231,45 @@ body{
     font-size: 2.2rem;
 }
 
+ #background .container .row .image img {
+      width: 150px;
+    
+}
+#background .container .row .icons {
+    width: 100%;
+}
+#background .container .row .icons a {
+        padding: 8px 5px;
+}
+#background .container .row .titles {
+    margin-top: 5%;
+    
+}
+#background .container .row .titles h2 {
+    font-size: 1.5rem;
+    
+}
+#background .container .row .titles h1 {
+    font-size: 2.5rem;
+}
+#background .container .row .titles h3 {
+    
+    font-size: 1.5rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
  }
+
+
 
 
 /* media query end */
