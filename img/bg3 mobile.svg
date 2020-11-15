@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="812" viewBox="0 0 375 812">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="375" height="812"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.236" y1="0.031" x2="0.958" y2="0.302" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9ad3bc"/>
+      <stop offset="1" stop-color="#a2f6d4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.026" y1="0.702" x2="0.196" y2="0.014" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bae1d1"/>
+      <stop offset="1" stop-color="#68c7a2"/>
+    </linearGradient>
+  </defs>
+  <g id="bg3_mobile" data-name="bg3 mobile" clip-path="url(#clip-path)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="375" height="812" fill="#fff"/>
+    <path id="right" d="M-2247.63,292.5s143.594-61.206,140.885-124.859-170.687-56.309-170.687-56.309-51.477-9.793-47.414,89.36S-2247.63,292.5-2247.63,292.5Z" transform="translate(-1284.236 -1156.507) rotate(-133)" fill="url(#linear-gradient)"/>
+    <path id="top" d="M-482.157,191c-106.32,132.67-10.253,144.087-25.622,230.56-2.435,13.7-7.748,29.445-17.2,47.916-68.523,133.841,52.068,211.118,52.068,211.118l88.4,52.589,226.126-249.131L-226.908,191Z" transform="translate(-153.05 -546.417) rotate(-79)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

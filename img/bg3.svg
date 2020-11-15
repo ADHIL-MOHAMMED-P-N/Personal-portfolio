@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.236" y1="0.031" x2="0.958" y2="0.302" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9ad3bc"/>
+      <stop offset="1" stop-color="#a2f6d4"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.026" y1="0.702" x2="0.196" y2="0.014" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bae1d1"/>
+      <stop offset="1" stop-color="#68c7a2"/>
+    </linearGradient>
+    <clipPath id="clip-bg3">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="bg3" clip-path="url(#clip-bg3)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <path id="left" d="M-2197.535,441.738s236.486-111.55,232.024-227.562S-2246.617,111.55-2246.617,111.55-2331.4,93.7-2324.7,274.413-2197.535,441.738-2197.535,441.738Z" transform="translate(1564.843 2113.155) rotate(49)" fill="url(#linear-gradient)"/>
+    <path id="top" d="M-434.37,191c-185.842,313.206-17.921,340.16-44.787,544.305-4.256,32.341-13.543,69.513-30.073,113.119C-629,1164.4-418.217,1346.831-418.217,1346.831l154.527,124.153L131.568,882.838,11.793,191Z" transform="translate(42.714 -472.077) rotate(-83)" fill="url(#linear-gradient-2)"/>
+    <path id="right" d="M-2197.535,441.738s236.486-111.55,232.024-227.562S-2246.617,111.55-2246.617,111.55-2331.4,93.7-2324.7,274.413-2197.535,441.738-2197.535,441.738Z" transform="translate(651.826 -1429.923) rotate(-121)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

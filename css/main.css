@@ -40,16 +40,30 @@
 
 body{
        background-color: #ffffff;
+          width: 100%;
+    background-image: url(../img/bg3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+
+
+/* .bg {
+    width: 100%;
+    background-image: url(../img/bg3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+} */
 
 
 #header .menu .navbar {
   
     padding: 0.7rem 0rem;
-    background-color: #ffffff;
+    background-color:transparent;
     font-family: var(--heading__font);
- 
+
+
 }
 
 #header .menu .navbar .nav-link {
@@ -82,6 +96,9 @@ body{
 /* navbar end */
 
 /* background start */
+
+
+
 #background .container .row .titles h2 {
     font-size: 3rem;
     font-weight: 400;
@@ -141,6 +158,7 @@ body{
     border-radius: 25px;
     background-color: #f3f3f3;
     box-shadow: 2px 4px 7px 0px #c9d8d1;
+    margin-bottom: 20px;
 }
 /*curser*/
 .typing > .txt {
@@ -148,3 +166,29 @@ body{
 }
 
 /* background end */
+
+
+
+
+
+
+
+/* media query start  */
+
+ /* mobile */
+
+ @media screen and (max-width: 400px){
+     body{
+      
+    background-image: url(../img/bg3\ mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#background .container .row .titles h3 {
+    font-size: 2.2rem;
+}
+
+ }
+
+
+/* media query end */
